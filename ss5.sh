@@ -91,7 +91,7 @@ sic_optimization() {
 }
 
 port_set() {
-        read -rp "请设置连接端口（默认:9999,直接按回车即可）:" port
+        read -rp "请设置端口（默认:9999,直接按回车即可）:" port
         [[ -z ${port} ]] && port="9999"
 }
 
@@ -117,9 +117,9 @@ bbr_install() {
 }
 
 user_set() {
-	read -rp  "请设置ss5账户。默认:caishen891,直接按回车即可）:" user
+	read -rp  "请设置用户名。默认:caishen891,直接按回车即可）:" user
 	[[ -z ${user} ]] && user="caishen891"
-	read -rp "请设置ss5连接密码。默认:999999,直接按回车即可）:" passwd
+	read -rp "请设置密码。默认:999999,直接按回车即可）:" passwd
 	[[ -z ${passwd} ]] && passwd="999999"
 }
 
