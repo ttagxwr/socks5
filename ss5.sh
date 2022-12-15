@@ -273,7 +273,7 @@ menu() {
 
 
 
-    read -rp "请输入数字 1 然后按回车：" menu_num
+    read -rp "请输入数字1然后按回车：" menu_num
     case $menu_num in
     1)
         install
