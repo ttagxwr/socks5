@@ -256,7 +256,7 @@ menu() {
     echo -e "\t---authored by zhangyu---"
     echo -e "\thttps://www.zhangyu.ml"
     echo -e "\tSystem Request:Debian 9+/Ubuntu 20.04+/Centos 7+"
-    echo -e "\t无法使用请联系1853479098@qq.com\n"
+    echo -e "\t\n"
 
     echo -e "—————————————— 安装向导 ——————————————"
     echo -e "${Green}  ${Font}"
